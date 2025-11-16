@@ -1,0 +1,10 @@
+{
+  "name": "Interactive Bible App",
+  "short_name": "Bible",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    { "src": "/icons/icon.jpg", "sizes": "192x192", "type": "image/jpg" },
+    { "src": "/icons/icon.jpg", "sizes": "512x512", "type": "image/jpg" }
+  ]
+}

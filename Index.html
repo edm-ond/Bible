@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Scrolls</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Sacred Scrolls</div>
+            <div class="tagline">Explore the Complete Word of God</div>
+        </header>
+
+        <div class="bible-container">
+            <div class="bible">
+                <div class="bible-cover">
+                    <div class="bible-title">HOLY BIBLE</div>
+                    <div class="bible-subtitle">Complete Scriptures</div>
+                </div>
+                <div class="bible-pages">
+                    <div class="bible-content">
+                        <h2>Welcome to Sacred Scrolls</h2>
+                        <p>Click the Bible to open and begin your journey through God's Word.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="selection-container">
+            <h2 class="section-title">Select Testament</h2>
+            <div class="options-grid">
+                <div class="option-card" id="old-testament">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Old Testament</h3>
+                    <p>The sacred scriptures of the Hebrew Bible</p>
+                </div>
+                <div class="option-card" id="new-testament">
+                    <i class="fas fa-cross"></i>
+                    <h3>New Testament</h3>
+                    <p>The life and teachings of Jesus Christ</p>
+                </div>
+            </div>
+
+            <div class="version-selector">
+                <h3>Select Bible Version</h3>
+                <div class="version-buttons">
+                    <button class="version-btn active" data-version="niv">NIV</button>
+                    <button class="version-btn" data-version="kjv">King James</button>
+                    <button class="version-btn" data-version="asv">ASV</button>
+                    <button class="version-btn" data-version="web">WEB</button>
+                </div>
+            </div>
+
+            <div class="book-selector">
+                <h3 class="testament-title" id="testament-title">Old Testament Books</h3>
+                <div class="book-grid" id="book-grid">
+                    <!-- Books will be populated by JavaScript -->
+                </div>
+                <button class="back-btn" id="back-to-testament">Back to Testament Selection</button>
+            </div>
+
+            <div class="chapter-selector">
+                <h3 class="section-title" id="chapter-selection-title">Select Chapter</h3>
+                <div class="chapter-grid" id="chapter-grid">
+                    <!-- Chapters will be populated by JavaScript -->
+                </div>
+                <button class="back-btn" id="back-to-books">Back to Book Selection</button>
+            </div>
+
+            <div class="bible-reader">
+                <div class="reader-header">
+                    <h3 class="reader-title" id="reader-title">Genesis 1</h3>
+                    <div class="reader-controls">
+                        <button class="control-btn" id="prev-chapter">Previous</button>
+                        <button class="control-btn" id="next-chapter">Next</button>
+                    </div>
+                </div>
+                <div class="verses-container" id="verses-container">
+                    <!-- Verses will be populated by JavaScript -->
+                </div>
+                <button class="back-btn" id="back-to-chapters">Back to Chapter Selection</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Sacred Scrolls &copy; 2025 | Complete Interactive Bible Experience</p>
+            <p>iLab Dev Studios</p>
+            <p>Powered by Bible API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

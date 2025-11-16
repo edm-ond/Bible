@@ -5,7 +5,7 @@ const ASSETS = [
   '/style.css',
   '/script.js',
   '/manifest.json'
-  '/service-worker.js
+  '/service-worker.js ',
 ];
 
 self.addEventListener('install', event => {

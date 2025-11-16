@@ -1,10 +1,21 @@
 {
-  "name": "Interactive Bible App",
+  "name": "Bible Web App",
   "short_name": "Bible",
-  "start_url": "https://neno-peach.vercel.app/",
+  "start_url": "index.html",
+  "scope": "./",
   "display": "standalone",
+  "theme_color": "#1a73e8",
+  "background_color": "#ffffff",
   "icons": [
-    { "src": "/icons/icon.jpg", "sizes": "192x192", "type": "image/jpg" },
-    { "src": "/icons/icon.jpg", "sizes": "512x512", "type": "image/jpg" }
+    {
+      "src": "icons.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }

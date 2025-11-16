@@ -26,7 +26,7 @@ Dark/Light Mode – Comfortable reading anytime.
 
 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript (or React/Next.js/etc. if applicable)
+Frontend: HTML, CSS, JavaScript 
 
 API: Any Bible API (e.g. api.bible, bible-api.com, YouVersion-like APIs depending on source)
 
@@ -40,8 +40,8 @@ Deployment: GitHub Pages / Vercel / Netlify
 
 1. Clone the project
 
-git clone https://github.com/your-username/bible-web.git
-cd bible-web
+git clone https://github.com/edm-ond/Bible.git
+cd Bible
 
 2. Configure the API
 
@@ -82,13 +82,6 @@ GitHub Pages
 4. Choose the main branch and /root folder
 
 
-
-Your site will be live at:
-
-https://neno-peach.vercel.app/bible-web/
-
-
----
 
 📚 API Usage Example
 
